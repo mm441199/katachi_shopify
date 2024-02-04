@@ -1,0 +1,569 @@
+div:empty {
+  display: block;
+}
+.text-body {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .h0,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+  h4,
+  .h4 {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+  .link,
+  .customer a {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+  }
+  .select__select {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+  .text-area {
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+  .text-body { 
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    font-style: normal;
+  }
+
+  .h0 {
+    font-size: 36px;
+  }
+  @media only screen and (min-width: 750px) {
+    .h0 {
+      font-size: 54px;
+    }
+  }
+  h1,
+  .h1 {
+    font-size: 20px;
+  }
+  @media only screen and (min-width: 750px) {
+    h1,
+    .h1 {
+      font-size: 28px;
+    }
+  }
+  h2,
+  .h2 {
+    font-size: 24px;
+  }
+  @media only screen and (min-width: 750px) {
+    h2,
+    .h2 {
+      font-size: 24px;
+    }
+  }
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+  @media only screen and (min-width: 750px) {
+    h3,
+    .h3 {
+      font-size: 18px;
+    }
+  }
+  
+  .card__heading.h2 {
+    font-size: 1.8rem;
+  }
+  
+  .article-card__excerpt.rte-width {
+    font-size: 1.4rem;
+  }
+  .rich-text__text {
+    font-size: 1.2rem;
+    font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+  }
+  .image-with-text__text {
+    font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 750px) {
+    .rich-text__text {
+      font-size: 1.4rem;
+    }
+    .image-with-text__text {
+      font-size: 1.4rem;
+    }
+  }
+    .image-with-text__heading {
+      font-family: 'YuGothic','Helvetica','Roboto',sans-serif;
+    }
+    .css-7vj7tn {
+      font-size: 1.2rem;
+    }
+  .card__heading {
+    font-size: 1.4rem;
+  }
+  .price-item {
+    font-size: 1.2rem;
+  }
+  
+/* ====================================================================
+セクション［ヒーローイメージ］
+==================================================================== */
+.banner__heading.h0 {
+  opacity: 0;
+  transform: translateY(-3px);
+  color: #e4e2df;
+}
+.banner__heading.inline-richtext.h0 {
+  
+  font-family: "Adobe Handwriting", sans-serif;
+}
+.banner__text {
+  opacity: 0;
+}
+
+/* ====================================================================
+セクション［NEW ARRIVAL］
+==================================================================== */
+.l-inner {
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.swiper {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  padding-top: 16px;
+}
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+  overflow: visible;
+}
+.slide-content {
+  text-decoration: none;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  flex-grow: 1;
+  display: grid;
+  grid-template-rows: max-content minmax(0,1fr) max-content auto;
+  
+  &__product-price .price{
+    font-size: 1.2rem; 
+    margin-top: 0.7rem;
+  }  
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+
+.product-card-slide {
+  overflow: hidden;
+
+  .swiper-slide {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    color: #665043;
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: transform 0.3s, opacity 1s;
+    
+    &:hover {
+      transform: translateY(-16px);
+      
+      h4 {
+        text-decoration: underline;
+        text-underline-offset: 0.3rem;
+        text-decoration-style: solid;
+      }
+    }
+
+    &:not(.swiper-slide-visible) {
+      pointer-events: none;
+      opacity: 0.3;
+    }
+  }
+  
+  .slide-media {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%;
+
+    img {
+      height: calc(100% + 16px);
+      transform: translateY(-16px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+/* ====================================================================
+セクション［WHO WE ARE］
+==================================================================== */
+.image-with-text {
+  opacity: 0;
+  
+  &.inview {
+    animation-name: kf-fadeIn; 
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+}
+
+/* ====================================================================
+セクション［RECOMMEND］
+==================================================================== */
+.collection,
+.collection-list {
+  .grid__item {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  &.inview {
+    .grid__item {
+      animation-name: kf-fadeIn; 
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+      @for $i from 1 through 20 {
+        &:nth-child(#{$i}) {
+          animation-delay: $i * 0.2s;
+        }
+      }
+    }
+  }
+}
+/* ====================================================================
+セクション［BRIDAL］
+==================================================================== */
+.title-wrapper-with-link {
+  justify-content: center;
+}
+
+.multicolumn-list {
+  &__item {
+    opacity: 0;
+  }
+  &.inview {
+    .multicolumn-list__item:nth-child(1) {
+      animation-name: kf-fadeInRowReverse; 
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+    }
+    .multicolumn-list__item:nth-child(2) {
+      animation-name: kf-fadeInRow; 
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-fill-mode: both;
+    }
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .multicolumn-list {
+    
+    &.inview {
+      .multicolumn-list__item:nth-child(1) {
+        animation-name: kf-fadeIn;
+      }
+      .multicolumn-list__item:nth-child(2) {
+        animation-name: kf-fadeIn;
+        animation-delay: 0.5s;
+      }
+    }
+  }
+}
+
+/* ====================================================================
+セクション［BLOG］
+==================================================================== */
+.section-title-article {
+  text-align: center;
+}
+
+.article-list {
+  list-style: none;
+  padding-left: 0;
+  
+  &__item {
+    border-bottom: 0.5px solid #9e9e9e;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 1.4rem;
+
+    &:hover {
+      color:  rgb(var(--color-foreground));
+    }
+  }
+  &__created-date {
+    margin-right: 1rem;
+  }
+}
+
+/* ====================================================================
+@keyframes
+==================================================================== */
+@keyframes kf-fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes kf-fadeInReverseDirection {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes kf-fadeInRow {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes kf-fadeInRowReverse {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ====================================================================
+個別ページ［BLOG］
+==================================================================== */
+// .tags-list {
+//   margin-bottom: 36px;
+
+//   ul {
+//     padding-inline-start: 0;
+//   }
+//   &__inner {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     list-style: none;
+//     justify-content: center;
+//     gap: 16px;
+//   }
+//   &__item {
+//     text-align: center;
+//     cursor: pointer;
+//     padding: 0.4rem 1rem;
+//     border-radius: 2px;
+//     background-color: rgba(255, 255, 255, 0.6);
+//     transition: all 0.6s;
+
+//     &.is-active {
+//       color: #fff;
+//       background-color: #665043;
+//     }
+//   }
+// }
+// @media screen and (min-width: 768px) {
+//   .tags-list {
+    
+//     &__inner {
+//       grid-template-columns: repeat(4, 1fr);
+//     }
+//   }
+// }
+// .articles-grid {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   column-gap: 10px;
+//   row-gap: 10px;
+
+//   &__item {
+//     display: none;
+
+//     &.is-show {
+//       display: block;
+//     }
+//   }
+// }
+// @media screen and (max-width: 1024px) {
+//   .articles-grid {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+// }
+// @media screen and (max-width: 601px) {
+//   .articles-grid {
+//     grid-template-columns: 1fr;
+//   }
+// }
+// .card {
+//   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+//   transition: box-shadow 0.5s;
+
+//   &__img-wrapper {
+//     position: relative;
+//     padding-top: 56.25%;
+//     overflow: hidden;
+//   }
+//   &__img {
+//     position: absolute;
+//     top: 50%;
+//     width: 100%;
+//     transform: translateY(-50%);
+//   }
+//   &__body {
+//     padding: 15px;
+//     & > *:last-child {
+//       margin-bottom: 0;
+//     }
+//   }
+//   &__date {
+//     font-size: 1.2rem;
+//   }
+//   &__title {
+//     margin-bottom: 5px;
+//     font-size: 1.4rem;
+//     font-weight: normal;
+//   }
+//   &__text {
+//     font-size: 1.2rem;
+//   }
+
+//   &--link {
+//     display: block;
+//     color: currentColor;
+//     text-decoration: none;
+//     transition: 0.25s;
+    
+//     &:hover {
+//       .card {
+
+//         box-shadow: none;
+//       }
+//     }
+//   }
+// }
+
+
+// /* ブログ本文 */
+// .blog-post {
+//   padding-bottom: 48px;
+//   margin-bottom: 48px;
+
+//   &__img-wrapper {
+//     margin-inline-start: 0;
+//     margin-inline-end: 0;
+//   }
+//   &__img {
+//     width: 100%;
+//     aspect-ratio: 3/2;
+//   }
+//   &__body {
+//     flex: 1;
+//   }
+//   &__body > *:last-child {
+//     margin-bottom: 0;
+//   }
+//   &__title {
+//     font-size: 1.8rem;
+//     margin: 0;
+//   }
+//   &__header {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-start;
+//     margin-bottom: 16px;
+//   }
+//   &__date {
+//     font-size: 1.2rem;
+//     display: block;
+//     margin-right: 16px;
+//   }
+//   &__tag {
+//     display: block;
+//     margin-right: 8px;
+//     padding: 0.4rem 0.7rem;
+//     font-size: 1.1rem;
+//     background-color: #665043;
+//     color: #fff;
+//     border-radius: 2px;
+
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+//   &__text {
+//     font-size: 1.4rem;
+//   }
+// }
+
+// .blog-post-nav {
+//   display: flex;
+//   justify-content: space-around;
+// }
+
+.sidebar {
+  width: 25%;
+  height: 100vh;//position:stickyは指定した要素の高さを定める必要がある
+  position: sticky;
+  top: 50px;
+  padding: 36px 0;
+
+  &__categories {
+    h3 {
+      margin-top: 0;
+    }
+  }
+}
