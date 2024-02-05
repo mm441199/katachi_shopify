@@ -1,0 +1,52 @@
+{% assign colorScheme = section.settings.color_scheme %}
+
+<div class="page-width">
+
+    <h1>カラースキーマテスト</h1>
+    
+    <h3>設定したカラースキーマ</h3>
+    {{ colorScheme.id }}
+    
+    <h3>設定したカラースキーマ一覧</h3>
+    {{ colorScheme.settings }}
+    
+    <h3>設定したカラースキーマを直接呼び出す</h3>
+    text→ {{ colorScheme.settings.text }}
+    background→ {{ colorScheme.settings.background }}
+    
+    <h3>data.jsonで設定したカラースキーマ一覧</h3>
+    {% for scheme in settings.color_schemes %}
+        .color-{{ scheme.id }} {<br>
+            --color-background: {{ scheme.settings.background }};<br>
+            --color-text: {{ scheme.settings.text }};<br>
+        }<br><br>
+    {% endfor %}
+
+</div>
+
+{% style %}
+    h3 {
+        border-bottom: 3px solid yellowgreen;
+        margin-top: 64px;
+    }
+{% endstyle %}
+
+{% schema %}
+{
+    "name": "セクション名",
+    "settings": [
+        {
+            "type": "color_scheme",
+            "id": "color_scheme",
+            "default": "scheme_1",
+            "label": "Color Scheme"
+        }
+    ],
+    "presets":[
+		    {
+		        "name" : "セクション名",
+		        "category": "カスタムパーツ"
+		    }
+    ]
+}
+{% endschema %}

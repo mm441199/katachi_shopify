@@ -1,7 +1,34 @@
 {
   "sections": {
+    "e15267aa-689b-4b4b-9bb1-c6ac8f7cfa74": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21095264059665__e15267aa-689b-4b4b-9bb1-c6ac8f7cfa74-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ALL ITEMS",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--21095264059665__e15267aa-689b-4b4b-9bb1-c6ac8f7cfa74-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-align: center;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -10,10 +37,12 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
-        "color_scheme": "background-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -30,6 +59,7 @@
     }
   },
   "order": [
+    "e15267aa-689b-4b4b-9bb1-c6ac8f7cfa74",
     "banner",
     "product-grid"
   ]

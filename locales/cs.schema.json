@@ -1637,7 +1637,7 @@
           "name": "Selektor množství"
         },
         "variant_picker": {
-          "name": "Selektor variant",
+          "name": "Výběr varianty",
           "settings": {
             "picker_type": {
               "label": "Typ",
@@ -2479,7 +2479,7 @@
           "name": "Selektor množství"
         },
         "variant_picker": {
-          "name": "Selektor variant",
+          "name": "Výběr varianty",
           "settings": {
             "picker_type": {
               "label": "Typ",

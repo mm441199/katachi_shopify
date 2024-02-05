@@ -753,3 +753,41 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+
+/* ------------------▼ アカウントを作成するー生年月日と性別フォームを追加 ▼------------------ */
+.birthday {
+  margin-top: 2rem;
+  text-align: left;
+}
+.birthday-label {
+  margin-left: 1.5rem;
+  display: block;
+}
+.birthday-form {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  column-gap: 3.6rem;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+.birthday-form__item {
+  border: 1px solid rgba(var(--color-foreground),.75);
+  border-radius: var(--inputs-margin-offset);
+}
+.birthday-form__item select {
+  margin: 0;  
+  color: (var(--color-foreground),.75);
+}
+.gender {
+  text-align: left;
+  margin-top: 2rem;
+}
+.gender-label {
+  margin-left: 1.5rem;
+  display: block;
+}
+.gender input {
+  margin-top: 2rem;
+}

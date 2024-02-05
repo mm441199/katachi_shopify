@@ -3,7 +3,7 @@
     "main": {
       "type": "main-blog",
       "settings": {
-        "layout": "collage",
+        "layout": "grid",
         "show_image": true,
         "image_height": "medium",
         "show_date": true,
@@ -11,9 +11,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "56f36f1e-cb5f-4b92-9fef-62484b288452": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18952729002257__56f36f1e-cb5f-4b92-9fef-62484b288452-1684030326ac8702d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ブログ一覧",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--18952729002257__56f36f1e-cb5f-4b92-9fef-62484b288452-1684030326ac8702d5-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "56f36f1e-cb5f-4b92-9fef-62484b288452"
   ]
 }

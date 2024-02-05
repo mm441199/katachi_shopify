@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "10,000円以上(税込)ご購入で送料無料",
             "link": ""
           }
         }
@@ -16,8 +16,11 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "custom_css": [
+        "span {color: white;}"
+      ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "schema-2",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -28,20 +31,23 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".header__menu-item {font-size: 12px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
-        "menu": "main-menu",
+        "menu": "header-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "background-1",
-        "menu_color_scheme": "background-1",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 0,
+        "padding_bottom": 4
       }
     }
   },

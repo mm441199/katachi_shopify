@@ -206,8 +206,7 @@
       "clear_filter": "Poista suodatin",
       "filter_selected_accessibility": "{{ type }} ({{ count }} suodatinta valittu)",
       "show_more": "Näytä enemmän",
-      "show_less": "Näytä vähemmän",
-      "filter_and_operator_subtitle": "Sovella kaikkia"
+      "show_less": "Näytä vähemmän"
     }
   },
   "templates": {

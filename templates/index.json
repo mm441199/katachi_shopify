@@ -1,57 +1,157 @@
 {
   "sections": {
-    "image_banner": {
+    "social_widget_55982": {
+      "type": "social-widget",
+      "disabled": true,
+      "settings": {
+        "social_widget_id": "55982",
+        "social_product_id": "none",
+        "social_widget_type": "none"
+      }
+    },
+    "f78e79a2-3a4b-4a57-a989-6224c6c19318": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "template--18509564903697__f78e79a2-3a4b-4a57-a989-6224c6c19318-16822280423e43b402-0": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "katachi",
             "heading_size": "h0"
           }
         },
-        "button": {
-          "type": "buttons",
+        "666ec1d3-1e99-402a-8f2f-abca0c529b00": {
+          "type": "text",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "ONLINE STORE",
+            "text_style": "caption-with-letter-spacing"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "template--18509564903697__f78e79a2-3a4b-4a57-a989-6224c6c19318-16822280423e43b402-0",
+        "666ec1d3-1e99-402a-8f2f-abca0c529b00"
+      ],
+      "custom_css": [
+        ".banner__heading {font-family: cursive;}"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image": "shopify:\/\/shop_images\/AdobeStock_232275144_2a34bbc8-e4fb-4fc6-b9ef-eed5e3ca0ed4.jpg",
+        "image_overlay_opacity": 30,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
+        "color_scheme": "schema-2",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "7af92018-5cb0-4e00-8b07-ed8f54358c48": {
+      "type": "swiper",
+      "disabled": true,
       "settings": {
-        "title": "Featured products",
+        "title": "",
+        "collection": "all-items",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "color_scheme": "background-1"
+      }
+    },
+    "308e7598-424d-4c31-b76c-ee9875078d0c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHO WE ARE",
+            "heading_size": "h2"
+          }
+        },
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自然がつくり出すさまざまな\"カタチ\"を独自の解釈でジュエリーに落とし込んだのが「katachi」です。川の流れで削られた小石、永い年月を思わせる大木の年輪、身近には多くの形が溢れています。身につける人の日常に溶けこむ、寄り添う、そんなブランドです。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-0",
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-1",
+        "template--18205526425873__308e7598-424d-4c31-b76c-ee9875078d0c-1683252338843b32de-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-us.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5f020998-dda5-4dcd-ad20-6ca8f3db3f74": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHO WE ARE",
+            "heading_size": "h2"
+          }
+        },
+        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自然がつくり出すさまざまな\"カタチ\"を独自の解釈でジュエリーに落とし込んだのが「katachi」です。川の流れで削られた小石、永い年月を思わせる大木の年輪、身近には多くの形が溢れています。身につける人の日常に溶けこむ、寄り添う、そんなブランドです。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-0",
+        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 76
+      }
+    },
+    "4804e67a-69b1-4748-bfce-c2f157bfa392": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "RANKING",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "collection": "best",
+        "products_to_show": 5,
+        "columns_desktop": 5,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -63,20 +163,183 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_ranking_icon": true
+      }
+    },
+    "ad86b432-3b35-4061-9fac-3d16f0b861c6": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT",
+            "heading_size": "h1"
+          }
+        },
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DAILY TRIALは、現在のスニーカーシーンに新たなスタンダードを築き上げるために誕生したデザイン性と機能性を兼ね備えたスニーカーブランドです。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MORE",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-0",
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-1",
+        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "social_widget_55982": {
-      "type": "social-widget",
+    "5ee7d42c-3138-4269-9a7b-9ccaf72eb129": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18509564903697__5ee7d42c-3138-4269-9a7b-9ccaf72eb129-16822292029e334421-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/engagement-ring01.jpg",
+            "title": "Engagement Ring",
+            "text": "<p>一生に一度の瞬間を彩る、永遠の愛の証。繊細なディテールが心を奪い、自然の美しさが輝く。特別な瞬間を彩る、シンプルで唯一無二の輝き。<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/no-99-marriage-ring"
+          }
+        },
+        "template--18509564903697__5ee7d42c-3138-4269-9a7b-9ccaf72eb129-16822292029e334421-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marriage-ring01.jpg",
+            "title": "Marriage Ring",
+            "text": "<p>永遠の絆を紡ぐ、真実の愛の証。シンプルな美しさが心に残り、自然の力に触れる。愛を刻んだシンプルな輝きが、永遠の結びつきを守る。<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/platina900-marriage-rings"
+          }
+        }
+      },
+      "block_order": [
+        "template--18509564903697__5ee7d42c-3138-4269-9a7b-9ccaf72eb129-16822292029e334421-0",
+        "template--18509564903697__5ee7d42c-3138-4269-9a7b-9ccaf72eb129-16822292029e334421-1"
+      ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "social_widget_id": "55982"
+        "title": "BRIDAL",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3976768e-dc36-4708-a257-11ac35b24a8b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pierce-earring"
+          }
+        },
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings"
+          }
+        },
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "d2171a0c-29ca-418b-baa0-372472a441df": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "cd244416-67c6-440f-b3ee-2a80b7e564af": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bridal"
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-0",
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-1",
+        "template--18205526425873__3976768e-dc36-4708-a257-11ac35b24a8b-168346801781ad1d22-2",
+        "d2171a0c-29ca-418b-baa0-372472a441df",
+        "cd244416-67c6-440f-b3ee-2a80b7e564af"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "CATEGORY",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "afe96b59-770d-4463-b3c9-d522db80df6a": {
+      "type": "locations",
+      "settings": {
+        "title": "LOCATION",
+        "heading_size": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "social_widget_55982",
-    "image_banner",
-    "featured_collection"
+    "f78e79a2-3a4b-4a57-a989-6224c6c19318",
+    "7af92018-5cb0-4e00-8b07-ed8f54358c48",
+    "308e7598-424d-4c31-b76c-ee9875078d0c",
+    "5f020998-dda5-4dcd-ad20-6ca8f3db3f74",
+    "4804e67a-69b1-4748-bfce-c2f157bfa392",
+    "ad86b432-3b35-4061-9fac-3d16f0b861c6",
+    "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
+    "3976768e-dc36-4708-a257-11ac35b24a8b",
+    "afe96b59-770d-4463-b3c9-d522db80df6a"
   ]
 }

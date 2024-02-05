@@ -210,8 +210,7 @@
       "clear_filter": "Remover filtro",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtros selecionados)",
       "show_more": "Mostrar mais",
-      "show_less": "Mostrar menos",
-      "filter_and_operator_subtitle": "Corresponder todos"
+      "show_less": "Mostrar menos"
     }
   },
   "templates": {

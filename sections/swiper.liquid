@@ -1,0 +1,139 @@
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'swiper.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% assign collection = section.settings.collection %}
+
+<div class="product-card-slide l-section">
+  <div class="l-inner section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
+    <h2 class="product-card-slide__title title h2">{{ section.settings.title }}</h2>
+ 
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {% for product in collection.products %}
+        <a href="{{ product.url }}" class="swiper-slide">
+          <div class="slide-media">
+            <img
+              srcset="{% if product.featured_image.width >= 288 %}{{ product.featured_image | image_url: width: 288 }} 288w,{% endif %}
+                      {% if product.featured_image.width >= 576 %}{{ product.featured_image | image_url: width: 576 }} 576w,{% endif %}
+                      {% if product.featured_image.width >= 550 %}{{ product.featured_image | image_url: width: 550 }} 550w,{% endif %}
+                      {% if product.featured_image.width >= 1100 %}{{ product.featured_image | image_url: width: 1100 }} 1100w,{% endif %}
+                      {{ product.featured_image | image_url }} {{ product.featured_image.width }}w"
+              src="{{ media | image_url: width: 550, height: 550 }}"
+              sizes="(min-width: 1200px) calc((1200px - 10rem) / 2), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
+              loading="lazy"
+              width="576"
+              height="{{ 576 | divided_by: product.featured_image.aspect_ratio }}"
+              alt="{{ product.featured_image.alt | escape }}"
+            >
+          </div>
+          <div class="slide-content">
+            <h4 class="slide-content__product-title card__heading h5">{{ product.title }}</h4>
+            <div class="slide-content__product-price card-information">
+              <span class="price">{{ product.price | money }}</span>
+            </div>
+          </div>
+          {% comment %} {% render 'card-product',
+            card_product: product,
+            media_aspect_ratio: section.settings.image_ratio,
+            show_secondary_image: section.settings.show_secondary_image,
+            show_vendor: section.settings.show_vendor,
+            show_rating: section.settings.show_rating,
+            lazy_load: lazy_load,
+            show_quick_add: section.settings.enable_quick_add,
+            section_id: section.id
+          %} {% endcomment %}
+        </a>
+        {% endfor %}
+      </div><!-- /swiper-wrapper -->
+    </div><!-- /swiper -->
+  </div>
+</div>
+<script src="{{ 'swiper-bundle.min.js' | asset_url}}" defer></script>
+<script src="{{ 'swiper.js' | asset_url}}" defer></script>
+{% schema %}
+{
+  "name": "商品コレクションスライダー",
+  "class": "slide-item-self",
+  "settings": [
+    {
+    "type": "text",
+    "id": "title",
+    "label": "title"
+    },
+    {
+    "type": "collection",
+    "id": "collection",
+    "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 60
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+        "value": "accent-1",
+        "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+        "value": "accent-2",
+        "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    }
+  ],
+  
+  "presets": [
+      {
+        "name": "商品コレクションスライダー"   
+      }
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {text-transform: uppercase; font-size: 2.4rem; text-align: center;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 16
+      }
+    },
+    "247b2d42-52e5-4adc-baaf-0c5ea61cba43": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18696496283921__247b2d42-52e5-4adc-baaf-0c5ea61cba43-1682260146ae829f34-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BRIDAL",
+            "heading_size": "h2"
+          }
+        },
+        "template--18696496283921__247b2d42-52e5-4adc-baaf-0c5ea61cba43-1682260146ae829f34-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社のエンゲージリングとマリッジリングは、永遠の愛と結婚の誓いを象徴する特別なリングです。以下に、それぞれの商品の説明をご紹介します。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18696496283921__247b2d42-52e5-4adc-baaf-0c5ea61cba43-1682260146ae829f34-0",
+        "template--18696496283921__247b2d42-52e5-4adc-baaf-0c5ea61cba43-1682260146ae829f34-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
+    "715c2730-b183-4474-948b-955048d1cadd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18817185087761__715c2730-b183-4474-948b-955048d1cadd-168308219595b7ff5b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18817185087761__715c2730-b183-4474-948b-955048d1cadd-168308219595b7ff5b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bridal-cover.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "050c8369-3364-4c16-ba6a-48a9da9d76a4": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Engagement Ring",
+            "heading_size": "h2"
+          }
+        },
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社のエンゲージリングは、品質とデザインの両面で優れた選択肢となっており、特別な瞬間をより特別なものにします。<\/p><p>シンプルでエレガントなデザインから、より複雑なデザインまでさまざまなスタイルがあります。結婚指輪との組み合わせにも考慮してデザインされており、完璧なマッチングを実現します。<\/p><p>当社のエンゲージリングには、カスタマイズオプションもご用意しております。彼女の好みや個性に合わせて、特別な一品を作り上げることができます。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "商品ページへ",
+            "button_link": "shopify:\/\/products\/no-99-marriage-ring"
+          }
+        }
+      },
+      "block_order": [
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-0",
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-1",
+        "template--18817185087761__050c8369-3364-4c16-ba6a-48a9da9d76a4-16830821896c613b56-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/order-ring02.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4f8788ac-346a-40e0-84d8-cc3e63bf7fbd": {
+      "type": "image-with-text",
+      "blocks": {
+        "2b51a1d0-3ac3-41e5-ad3f-e049341f2ecc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Marrinage Ring",
+            "heading_size": "h2"
+          }
+        },
+        "2cbb0d2e-a46f-4a71-865e-4a5e989f44db": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当社のマリッジリングは、永遠の結びつきを象徴する美しいデザインと高品質な素材でお客様をお迎えします。<\/p><p>マリッジリングは、プラチナ、ゴールド、またはその他の素材で作られています。お好みに合わせて選ぶことができます。<\/p><p> 結婚指輪は一生身に着けるものであるため、快適な着用感が重要です。当社のマリッジリングは、サイズとフィットに特に注意を払って製作されており、長時間の着用でも快適さを提供します。<\/p>",
+            "text_style": "body"
+          }
+        },
+        "4f795f9e-99a2-4845-8a79-377fb97c6d32": {
+          "type": "button",
+          "settings": {
+            "button_label": "商品ページへ",
+            "button_link": "shopify:\/\/products\/platina900-marriage-rings"
+          }
+        }
+      },
+      "block_order": [
+        "2b51a1d0-3ac3-41e5-ad3f-e049341f2ecc",
+        "2cbb0d2e-a46f-4a71-865e-4a5e989f44db",
+        "4f795f9e-99a2-4845-8a79-377fb97c6d32"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/marriage-ring01.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "be235be6-40dd-4c3f-b4ad-efe274e27f32": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "指輪への文字入れについて教えてください。",
+            "icon": "check_mark",
+            "row_content": "<p>商品ページに「刻印の文言」というお客様の入力スペースがございますので、<span style=\"text-decoration:underline\"><strong>カートに追加する前に<\/strong><\/span>ご希望の文字を入力してください。また、ご注文後は製作に入りますので文言の変更ができかねます。カートに入れた後、ご注文確定前に必ず入力した文字に誤りがないか確認をお願いいたします。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "サイズの計測方法について教えてください。",
+            "icon": "check_mark",
+            "row_content": "<p>ご注文確定後、ご自宅に無料でサイズ計測キットをお送りさせていただきます。計測が終わりましたら専用のアプリでサイズデータをお送りいただき、製作に入らせていただきます。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "注文後どれくらいで完成しますか？",
+            "icon": "check_mark",
+            "row_content": "<p>ご注文後およそ2〜3ヶ月が目安になります。デザイナーが1点1点丁寧にお作りいたしますので、お時間を頂戴しております。ご了承くださいませ。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "商品を送ってもらうことはできますか？",
+            "icon": "check_mark",
+            "row_content": "<p>基本的にお近くの店舗まで受け取りに来ていただきます。オーダーメイドになりますので、仕上がりをお客様に確認いただくと同時に、高価な商品のため、配送事故等による紛失の可能性がないよう、万全を期すための対応になります。どうしてもお越しいただくことが難しい場合、お問い合わせからご連絡ください。<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-0",
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-1",
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-2",
+        "template--18696496283921__be235be6-40dd-4c3f-b4ad-efe274e27f32-1682260186d3884b16-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "よくある質問",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "247b2d42-52e5-4adc-baaf-0c5ea61cba43",
+    "715c2730-b183-4474-948b-955048d1cadd",
+    "050c8369-3364-4c16-ba6a-48a9da9d76a4",
+    "4f8788ac-346a-40e0-84d8-cc3e63bf7fbd",
+    "be235be6-40dd-4c3f-b4ad-efe274e27f32"
+  ]
+}

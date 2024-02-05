@@ -77,15 +77,56 @@
         role="list"
         aria-label="{{ 'general.slider.name' | t }}"
       >
+        {% assign ranking = section.settings.show_ranking_icon %}
+        {% if ranking %}
+        {% style %}
+          .ranking-item {
+            position: relative;
+          }
+          .ranking-item .ranking-icon {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 1.8em;
+            height: 1.8em;
+            border-radius: 50%;
+            font-weight: 700;
+            line-height: 1;
+            color: #666;
+            background-color: #EEEEEE;
+          }
+          .ranking-item:nth-of-type(-n+3) .ranking-icon {
+            color: #fff;
+          }
+          .ranking-item:first-of-type .ranking-icon {
+            background-color: #d6c049;
+          }
+          .ranking-item:nth-of-type(2) .ranking-icon {
+            background-color: #BABFC0;
+          }
+          .ranking-item:nth-of-type(3) .ranking-icon {
+            background-color: #977559;
+          } 
+          {% endstyle %}
+        {% endif %}
         {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="grid__item{% if ranking %} ranking-item{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}>"
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
+            
+            {% if ranking %}
+              <span class="ranking-icon">{{ forloop.index }}</span>
+            {% endif %}
+
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -435,6 +476,12 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ranking_icon",
+      "label": "ランキングアイコンを表示する",
+      "default": false
     }
   ],
   "presets": [

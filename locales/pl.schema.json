@@ -3311,7 +3311,7 @@
       }
     },
     "quick-order-list": {
-      "name": "Lista szybkich zamówień",
+      "name": "Szybka lista zamówień",
       "settings": {
         "show_image": {
           "label": "Pokaż obrazy"
@@ -3321,7 +3321,7 @@
         }
       },
       "presets": {
-        "name": "Lista szybkich zamówień"
+        "name": "Szybka lista zamówień"
       }
     }
   }

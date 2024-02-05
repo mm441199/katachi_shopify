@@ -1,10 +1,257 @@
 {
   "sections": {
+    "14ce6824-d70e-4ac6-aaa5-f0c907635fa5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18205526491409__14ce6824-d70e-4ac6-aaa5-f0c907635fa5-168308100480e39450-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526491409__14ce6824-d70e-4ac6-aaa5-f0c907635fa5-168308100480e39450-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "35c98e7c-19c7-4448-afd8-12b8a4746f4d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "20239a75-579e-46b6-926b-b8509f84cb08": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "購入した商品のメンテナンスや修理は可能ですか？",
+            "icon": "check_mark",
+            "row_content": "<p>弊社では、一部の商品についてメンテナンスや修理サービスを提供しております。商品ご購入時に付属する保証書や商品ページの情報をご参照ください。修理やメンテナンスに関するお問い合わせは、カスタマーサポートまでお気軽にお問い合わせください。<\/p>",
+            "page": ""
+          }
+        },
+        "8d8b53be-6c87-4129-960d-49ca9fbfaffa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "商品の返品は可能ですか？",
+            "icon": "check_mark",
+            "row_content": "<ol><li>はい、未使用かつ商品にダメージのない場合、商品到着後30日以内であれば返品を受け付けております。詳細な返品ポリシーについては、返品・交換ページをご覧ください。<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "793d065e-4413-43a0-9ef5-e5f59685f25d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "商品の交換は可能ですか？",
+            "icon": "check_mark",
+            "row_content": "<p>はい、商品到着後30日以内であれば、サイズやデザインの交換を承っております。交換に関する詳細は、返品・交換ページをご確認ください。<\/p>",
+            "page": ""
+          }
+        },
+        "81617abc-303e-4580-a688-8587b1963648": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "金属アレルギーの方でもご利用いただける商品はありますか？",
+            "icon": "check_mark",
+            "row_content": "<p> はい、金属アレルギーの方でもお楽しみいただける商品をご用意しております。弊社では、アレルギー反応が少ない素材や特殊な加工を施した商品を提供しております。商品の詳細ページや製品説明には、使用されている素材に関する情報を記載しておりますので、ご確認ください。<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "20239a75-579e-46b6-926b-b8509f84cb08",
+        "8d8b53be-6c87-4129-960d-49ca9fbfaffa",
+        "793d065e-4413-43a0-9ef5-e5f59685f25d",
+        "81617abc-303e-4580-a688-8587b1963648"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "商品について",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0f69edff-6899-4a2c-979f-63696e56808b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "注文するにはどうすればよいですか？",
+            "icon": "check_mark",
+            "row_content": "<p>弊社のウェブサイトにアクセスし、商品ページからご希望のアイテムを選択してください。その後、カートに追加し、お支払い方法と配送先情報を入力して注文を確定してください。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "オーダープロセスはどのように進みますか？",
+            "icon": "check_mark",
+            "row_content": "<p>注文が確定されると、自動的に注文確認メールが送信されます。弊社のスタッフが注文を確認し、商品の準備と発送手続きを行います。発送時には、追跡番号が提供されますので、商品の配送状況を追跡することができます。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "どのような支払い方法を利用できますか？",
+            "icon": "check_mark",
+            "row_content": "<p>当社では、クレジットカード（Visa、Mastercard、American Expressなど）やデビットカードを利用したオンライン決済を受け付けております。一部の地域では、代金引換や銀行振込によるお支払いも可能です。<\/p>",
+            "page": ""
+          }
+        },
+        "8401ab30-ad77-4667-847f-94020b0a10fe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "割払いは可能ですか？",
+            "icon": "check_mark",
+            "row_content": "<p>はい、一部商品については分割払いがご利用いただけます。ご希望の場合は、お支払いページで詳細をご確認ください。<\/p>",
+            "page": ""
+          }
+        },
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "支払い時のセキュリティ対策は万全ですか？",
+            "icon": "check_mark",
+            "row_content": "<p>弊社はお客様のプライバシーとデータのセキュリティを非常に重視しております。全てのお支払いトランザクションは、安全な暗号化技術（SSL）を使用して保護されています。<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-0",
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-1",
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-2",
+        "8401ab30-ad77-4667-847f-94020b0a10fe",
+        "template--18205526491409__0f69edff-6899-4a2c-979f-63696e56808b-1683080986fa7a4e0e-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "ご注文について",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4e2d2d7a-de3f-4df6-9bf7-aa3b303d3299": {
+      "type": "collapsible-content",
+      "blocks": {
+        "cbaf4ab9-3cc9-42f9-9256-c04f288eefba": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "商品の配送方法はどのようになりますか？",
+            "icon": "check_mark",
+            "row_content": "<ol><li>当社では信頼性の高い配送パートナーと提携しており、迅速かつ安全な配送を心掛けています。通常、国内配送では数日から一週間程度でお届けいたします。<\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "9cc57615-b54d-4594-9aed-256dd4411152": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "配送料金はどのようになっていますか？",
+            "icon": "check_mark",
+            "row_content": "<p>弊社では、全国一律の配送料金を設定しております。詳細は配送情報ページをご確認ください。<\/p>",
+            "page": ""
+          }
+        },
+        "a8d71878-1408-4626-a2a4-c1d600b19c0d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "商品が破損していたり、間違った商品が届いた場合の対応はどうなりますか？",
+            "icon": "check_mark",
+            "row_content": "<p>万一商品に問題があった場合は、返品・交換サービスをご利用いただけます。商品到着後、速やかにご連絡ください。詳細な手続きについては、お問い合わせページをご参照ください。<\/p><ol><li><\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "f4fb88e1-3251-426d-9b9c-95d470af6cb4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "配送地域はどこまで対応していますか？",
+            "icon": "check_mark",
+            "row_content": "<ol><li>当店では、国内全域への配送を行っております。ただし、一部離島地域については別途お問い合わせください。<\/li><\/ol>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "cbaf4ab9-3cc9-42f9-9256-c04f288eefba",
+        "9cc57615-b54d-4594-9aed-256dd4411152",
+        "a8d71878-1408-4626-a2a4-c1d600b19c0d",
+        "f4fb88e1-3251-426d-9b9c-95d470af6cb4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "配送・送料について",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "16d6bf07-1e7b-400e-9de3-17461aebeb9f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18205526491409__16d6bf07-1e7b-400e-9de3-17461aebeb9f-167902410777a36f2e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "お問い合わせ",
+            "heading_size": "h2"
+          }
+        },
+        "template--18205526491409__16d6bf07-1e7b-400e-9de3-17461aebeb9f-167902410777a36f2e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>必要事項をご入力の上、送信ボタンを押してください。追って担当からご連絡させていただきます。<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18205526491409__16d6bf07-1e7b-400e-9de3-17461aebeb9f-167902410777a36f2e-0",
+        "template--18205526491409__16d6bf07-1e7b-400e-9de3-17461aebeb9f-167902410777a36f2e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "form": {
@@ -19,7 +266,12 @@
     }
   },
   "order": [
+    "14ce6824-d70e-4ac6-aaa5-f0c907635fa5",
+    "35c98e7c-19c7-4448-afd8-12b8a4746f4d",
+    "0f69edff-6899-4a2c-979f-63696e56808b",
+    "4e2d2d7a-de3f-4df6-9bf7-aa3b303d3299",
     "main",
+    "16d6bf07-1e7b-400e-9de3-17461aebeb9f",
     "form"
   ]
 }

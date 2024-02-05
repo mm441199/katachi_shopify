@@ -214,8 +214,7 @@
       "clear_filter": "Pašalinti filtrą",
       "filter_selected_accessibility": "{{ type }} (pasirinkta filtrų: {{ count }})",
       "show_more": "Rodyti daugiau",
-      "show_less": "Rodyti mažiau",
-      "filter_and_operator_subtitle": "Atitikti visas"
+      "show_less": "Rodyti mažiau"
     }
   },
   "templates": {

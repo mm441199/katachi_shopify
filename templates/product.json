@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "04451242-ed11-4895-a0ad-891f49f8e5d6": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -34,35 +41,42 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
+        "2ea2f0c5-61c0-473a-994a-2a1507a44472": {
+          "type": "collapsible_tab",
           "settings": {
+            "heading": "商品説明",
+            "icon": "check_mark",
+            "content": "<p>Luxe Haven Braceletは、贅沢な安らぎと上質な居心地の良さを提供する、まさに至福のブレスレットです。このブレスレットは、あなたの手首に優雅な輝きをもたらし、まるで贅沢なオアシスに身を包まれているかのような感覚を与えます。<\/p><p>Luxe Haven Braceletは、最高品質の素材と洗練されたデザインが融合した、一流のクラフトマンシップの結晶です。豪華な宝石や煌めくダイヤモンドが贅沢に施され、その輝きはまばゆく、あなたの手首を飾り立てます。<\/p><p>このブレスレットは、日常のエレガントなスタイルに華やかさを添えるだけでなく、特別なイベントやパーティーでの高級な装いにもぴったりです。洗練されたデザインと繊細な手仕事によって創り出されたLuxe Haven Braceletは、あなたの存在感と上品さを引き立て、まさにラグジュアリーな雰囲気を醸し出します。<\/p><p>このブレスレットは、忙しい現代の女性にとっての癒しの場所です。Luxe Haven Braceletを身に着けることで、忙しい日常から離れ、優雅なひとときを過ごすことができます。その優美なデザインと快適な装着感は、あなたに心地よい安らぎをもたらし、特別な存在感を醸し出します。<\/p><p>Luxe Haven Braceletは、洗練された美と贅沢なくつろぎを求める方にふさわしい、真に特別なアクセサリーです。贅沢な居心地の良さを追求し、高級感と優雅さを追加するために、ぜひ手に入れてください。Luxe Haven Braceletがあなたを至福の世界に誘います。<\/p>",
+            "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "bf245dd4-d05c-4a0c-aba1-8a90aee09478": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "share_label": "Share"
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "04451242-ed11-4895-a0ad-891f49f8e5d6",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "2ea2f0c5-61c0-473a-994a-2a1507a44472",
+        "bf245dd4-d05c-4a0c-aba1-8a90aee09478"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "background-1",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -85,7 +99,6 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
-        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -93,10 +106,27 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "167905959833a2ef81": {
+      "type": "apps",
+      "blocks": {
+        "628629a1-14d8-4867-b4b3-cf79cbe3dd06": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "628629a1-14d8-4867-b4b3-cf79cbe3dd06"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "167905959833a2ef81"
   ]
 }

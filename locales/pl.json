@@ -214,8 +214,7 @@
       "clear_filter": "Usuń filtr",
       "filter_selected_accessibility": "{{ type }} (wybrano {{ count }} fitry(-ów))",
       "show_more": "Pokaż więcej",
-      "show_less": "Pokaż mniej",
-      "filter_and_operator_subtitle": "Dopasuj wszystko"
+      "show_less": "Pokaż mniej"
     }
   },
   "templates": {

@@ -4,17 +4,45 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "827d2c06-38c1-49dd-9a4d-fb39b6226a4c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Jewelry",
+            "menu": "jewelry"
+          }
+        },
+        "7ea30787-9721-4c30-8e34-65024d479a5d": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menu",
+            "menu": "footer-menu"
+          }
+        },
+        "01401d16-5ac1-4573-a068-a4d239e5c32b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Information",
+            "menu": "link-list"
+          }
+        }
+      },
+      "block_order": [
+        "827d2c06-38c1-49dd-9a4d-fb39b6226a4c",
+        "7ea30787-9721-4c30-8e34-65024d479a5d",
+        "01401d16-5ac1-4573-a068-a4d239e5c32b"
+      ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
-        "margin_top": 0,
+        "margin_top": 48,
         "padding_top": 36,
         "padding_bottom": 36
       }
