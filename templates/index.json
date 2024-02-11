@@ -328,6 +328,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_wcqMwF": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "SHOP BLOG",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
@@ -340,6 +357,7 @@
     "ad86b432-3b35-4061-9fac-3d16f0b861c6",
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
     "3976768e-dc36-4708-a257-11ac35b24a8b",
-    "afe96b59-770d-4463-b3c9-d522db80df6a"
+    "afe96b59-770d-4463-b3c9-d522db80df6a",
+    "featured_blog_wcqMwF"
   ]
 }
