@@ -397,6 +397,9 @@
     },
     "afe96b59-770d-4463-b3c9-d522db80df6a": {
       "type": "locations",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "LOCATION",
         "heading_size": "h2",
@@ -406,6 +409,9 @@
     },
     "featured_blog_wcqMwF": {
       "type": "featured-blog",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading": "SHOP BLOG",
         "heading_size": "h2",
