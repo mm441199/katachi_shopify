@@ -399,7 +399,7 @@
     "featured_blog_wcqMwF": {
       "type": "featured-blog",
       "custom_css": [
-
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "heading": "SHOP BLOG",
