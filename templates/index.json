@@ -142,8 +142,8 @@
         "h2 {text-align: center;}"
       ],
       "settings": {
-        "title": "ITEM RANKING TOP5",
-        "heading_size": "h2",
+        "title": "ITEM RANKING TOP10",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
