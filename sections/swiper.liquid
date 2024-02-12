@@ -18,13 +18,29 @@
 {% assign collection = section.settings.collection %}
 
 <div class="product-card-slide l-section">
-  <div class="l-inner section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
+  <div class="l-inner section-{{ section.id }}-padding">
     <h2 class="product-card-slide__title title h2">{{ section.settings.title }}</h2>
  
     <div class="swiper">
       <div class="swiper-wrapper">
         {% for product in collection.products %}
-        <a href="{{ product.url }}" class="swiper-slide">
+          <a href="{{ product.url }}" class="swiper-slide">
+            <div class="slide">
+            
+              {% render 'card-product',
+                card_product: product,
+                media_aspect_ratio: section.settings.image_ratio,
+                image_shape: section.settings.image_shape,
+                show_secondary_image: section.settings.show_secondary_image,
+                show_vendor: section.settings.show_vendor,
+                show_rating: section.settings.show_rating,
+                lazy_load: lazy_load,
+                show_quick_add: section.settings.enable_quick_add,
+                section_id: section.id
+              %}
+            </div>
+          </a>
+        {% comment %} <a href="{{ product.url }}" class="swiper-slide">
           <div class="slide-media">
             <img
               srcset="{% if product.featured_image.width >= 288 %}{{ product.featured_image | image_url: width: 288 }} 288w,{% endif %}
@@ -46,17 +62,7 @@
               <span class="price">{{ product.price | money }}</span>
             </div>
           </div>
-          {% comment %} {% render 'card-product',
-            card_product: product,
-            media_aspect_ratio: section.settings.image_ratio,
-            show_secondary_image: section.settings.show_secondary_image,
-            show_vendor: section.settings.show_vendor,
-            show_rating: section.settings.show_rating,
-            lazy_load: lazy_load,
-            show_quick_add: section.settings.enable_quick_add,
-            section_id: section.id
-          %} {% endcomment %}
-        </a>
+        </a> {% endcomment %}
         {% endfor %}
       </div><!-- /swiper-wrapper -->
     </div><!-- /swiper -->
