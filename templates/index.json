@@ -139,10 +139,10 @@
     "4804e67a-69b1-4748-bfce-c2f157bfa392": {
       "type": "featured-collection",
       "custom_css": [
-
+        "h2 {text-align: center;}"
       ],
       "settings": {
-        "title": "RANKING",
+        "title": "ITEM RANKING TOP5",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
