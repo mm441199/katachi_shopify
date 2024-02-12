@@ -69,6 +69,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -105,6 +106,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -141,6 +143,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -152,8 +155,8 @@
         "h2 {text-align: center;}"
       ],
       "settings": {
-        "title": "RECOMMEND",
-        "heading_size": "h1",
+        "title": "RECOMMEND ITEMS",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -166,6 +169,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -173,7 +177,8 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "show_ranking_icon": false
       }
     },
     "b446a5c8-2573-44b7-ad1e-79f554ad8258": {
@@ -216,6 +221,9 @@
         "template--18233200247057__b446a5c8-2573-44b7-ad1e-79f554ad8258-1685011169d6d7a88d-2",
         "104b908b-37c6-4f56-986a-6157f1d41ae5",
         "2931c448-8a18-4836-b831-f4722461d7b3"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "title": "CATEGORY",
