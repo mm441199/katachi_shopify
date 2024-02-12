@@ -46,7 +46,7 @@
     "card_shadow_blur": 5,
     "collection_card_style": "standard",
     "collection_card_image_padding": 6,
-    "collection_card_text_alignment": "left",
+    "collection_card_text_alignment": "center",
     "collection_card_color_scheme": "background-2",
     "collection_card_border_thickness": 0,
     "collection_card_border_opacity": 10,
