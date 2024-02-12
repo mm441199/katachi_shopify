@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     watchSlidesProgress: true,
-    // speed: 1000,
-    // autoplay: {
-    //   delay: 4000,
-    //   disableOnInteraction: false,
-    // },
+    speed: 1000,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
     loop: true,
     loopAdditionalSlides: 1,
     disableOnInteraction: false,

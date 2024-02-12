@@ -24,7 +24,11 @@
     <div class="swiper">
       <div class="swiper-wrapper">
         {% for product in collection.products %}
-          <a href="{{ product.url }}" class="swiper-slide">
+          {% assign lazy_load = false %}
+          {%- if forloop.index > 2 -%}
+            {%- assign lazy_load = true -%}
+          {%- endif -%}
+          <a class="swiper-slide">
             <div class="slide">
             
               {% render 'card-product',
