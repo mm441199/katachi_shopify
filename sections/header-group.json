@@ -35,7 +35,7 @@
         ".header__menu-item {font-size: 12px;}"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "top-center",
         "menu": "header-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
