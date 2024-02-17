@@ -32,7 +32,7 @@
         "666ec1d3-1e99-402a-8f2f-abca0c529b00"
       ],
       "custom_css": [
-        ".banner__heading {font-family: cursive;}"
+        ".banner__heading {font-family: 'Snell Roundhand', sans-serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AdobeStock_232275144_2a34bbc8-e4fb-4fc6-b9ef-eed5e3ca0ed4.jpg",
@@ -137,7 +137,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best",
-        "products_to_show": 10,
+        "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": false,
@@ -155,53 +155,6 @@
         "padding_top": 48,
         "padding_bottom": 72,
         "show_ranking_icon": true
-      }
-    },
-    "ad86b432-3b35-4061-9fac-3d16f0b861c6": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ABOUT",
-            "heading_size": "h1"
-          }
-        },
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>DAILY TRIALは、現在のスニーカーシーンに新たなスタンダードを築き上げるために誕生したデザイン性と機能性を兼ね備えたスニーカーブランドです。<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "MORE",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-0",
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-1",
-        "template--18205526425873__ad86b432-3b35-4061-9fac-3d16f0b861c6-167883690435386698-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/about.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "slideshow_thAVbb": {
@@ -375,7 +328,7 @@
         "title": "CATEGORY",
         "heading_size": "h2",
         "image_ratio": "portrait",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -423,7 +376,6 @@
     "308e7598-424d-4c31-b76c-ee9875078d0c",
     "5f020998-dda5-4dcd-ad20-6ca8f3db3f74",
     "4804e67a-69b1-4748-bfce-c2f157bfa392",
-    "ad86b432-3b35-4061-9fac-3d16f0b861c6",
     "slideshow_thAVbb",
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
     "3976768e-dc36-4708-a257-11ac35b24a8b",
