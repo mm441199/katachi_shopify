@@ -32,7 +32,7 @@
         "666ec1d3-1e99-402a-8f2f-abca0c529b00"
       ],
       "custom_css": [
-        ".banner__heading {font-family: 'Snell Roundhand', sans-serif;}"
+        ".banner__heading {font-family: \"Snell Roundhand\", sans-serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AdobeStock_232275144_2a34bbc8-e4fb-4fc6-b9ef-eed5e3ca0ed4.jpg",
@@ -131,7 +131,7 @@
         "h2 {text-align: center;}"
       ],
       "settings": {
-        "title": "ITEM RANKING TOP10",
+        "title": "ITEM RANKING TOP5",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -368,6 +368,16 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
+    },
+    "swiper_jLxE9p": {
+      "type": "swiper",
+      "settings": {
+        "title": "",
+        "collection": "all-items",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
@@ -380,6 +390,7 @@
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
     "3976768e-dc36-4708-a257-11ac35b24a8b",
     "afe96b59-770d-4463-b3c9-d522db80df6a",
-    "featured_blog_wcqMwF"
+    "featured_blog_wcqMwF",
+    "swiper_jLxE9p"
   ]
 }
