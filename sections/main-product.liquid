@@ -78,6 +78,22 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'custom_description' -%}
+              <div class="info-tab">
+                <button class="info-tab__item" aria-selected="true">商品について</button>
+                <button class="info-tab__item" aria-selected="false">仕様・配送について</button>
+              </div>
+              <div class="info-panel">
+                <div class="info-panel__item" aria-hidden="false">
+                  <p>{{ product.metafields.info._size }}</p>
+                  <p>{{ product.metafields.info._material }}</p>
+                  <p>{{ product.metafields.delivery._days }}</p>
+                  <p>{{ product.metafields.delivery._attention }}</p>
+                </div>
+                <div class="info-panel__item" aria-hidden="true">
+                  {{ product.description }}
+                </div>
+              </div>
             {%- when '@app' -%}
               {% render block %}
             {%- when 'text' -%}
