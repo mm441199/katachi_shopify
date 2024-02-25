@@ -1598,3 +1598,34 @@ a.product__text {
     border: none;
   }
 }
+
+.postage {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.postage__main {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 4px;
+  background-color: #cdc1ba;
+}
+.postage__main::before {
+  content: url("//cdn.shopify.com/s/files/1/0733/1073/2561/files/truck.svg?v=1708831587");
+  width: 22px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+.postage__info {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+.postage__free {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
