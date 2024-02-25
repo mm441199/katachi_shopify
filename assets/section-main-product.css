@@ -1630,3 +1630,6 @@ a.product__text {
   font-size: 1.2rem;
   font-weight: bold;
 }
+.postage__current-cart-price {
+  font-size: 1.2rem;
+}

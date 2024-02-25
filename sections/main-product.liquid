@@ -130,12 +130,23 @@
               {%- endif -%}
 
               {% comment %}送料の表示{% endcomment %}
-              <div class="postage">
-                <div class="postage__main">
-                  <p class="postage__info">全国一律 | ¥800</p>
+              {%- assign free_shipping_price = 1000000 -%}
+              {%- if product.price >= free_shipping_price or cart.total_price >= free_shipping_price -%}
+                <div class="postage">
+                  <div class="postage__main">
+                    <p class="postage__info">送料無料</p>
+                  </div>
+                  <p class="postage__current-cart-price">現在のカート内の合計金額は{{ cart.total_price | money_with_currency}}円です</p>
                 </div>
-                <p class="postage__free">10,000円以上のご購入で送料無料!</p>
-              </div>
+                {%- elsif product.price <= free_shipping_price -%}
+                  <div class="postage">
+                    <div class="postage__main">
+                      <p class="postage__info">全国一律 | ¥800</p>
+                    </div>
+                    <p class="postage__current-cart-price">現在のカート内の合計金額は{{ cart.total_price | money_with_currency}}円です</p>
+                  </div>
+                <p class="postage__free">※10,000円以上のご購入で送料無料!</p>
+              {%- endif -%}
                 {% comment %} <div class="product__tax caption rte">
                   {%- if cart.taxes_included -%}
                     {{ 'products.product.include_taxes' | t }}
