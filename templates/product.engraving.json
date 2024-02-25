@@ -57,15 +57,6 @@
           "settings": {
           }
         },
-        "2ea2f0c5-61c0-473a-994a-2a1507a44472": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "商品説明",
-            "icon": "check_mark",
-            "content": "<p>{{ product.metafields.descriptors.care_guide | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
         "bf245dd4-d05c-4a0c-aba1-8a90aee09478": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -87,7 +78,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "2ea2f0c5-61c0-473a-994a-2a1507a44472",
         "bf245dd4-d05c-4a0c-aba1-8a90aee09478"
       ],
       "settings": {
