@@ -1603,6 +1603,7 @@ a.product__text {
   display: flex;
   align-items: center;
   column-gap: 8px;
+  margin-top: 48px;
 }
 .postage__main {
   display: inline-block;
