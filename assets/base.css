@@ -2111,8 +2111,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  bottom: 0.8rem;
-  left: 2.2rem;
+  bottom: 2.2rem;
+  left: 2.4rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
 
@@ -2568,8 +2568,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 
 .header__icon .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 2.4rem;
+  width: 2.4rem;
   fill: none;
   vertical-align: middle;
 }
