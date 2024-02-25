@@ -371,8 +371,11 @@
     },
     "swiper_jLxE9p": {
       "type": "swiper",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
-        "title": "",
+        "title": "NEW ARRIVAL",
         "collection": "all-items",
         "padding_top": 60,
         "padding_bottom": 60,
