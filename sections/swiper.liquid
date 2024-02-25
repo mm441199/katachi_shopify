@@ -24,52 +24,21 @@
     <div class="swiper">
       <div class="swiper-wrapper">
         {% for product in collection.products %}
-          {% assign lazy_load = false %}
-          {%- if forloop.index > 2 -%}
-            {%- assign lazy_load = true -%}
-          {%- endif -%}
-          <a class="swiper-slide">
-            <div class="slide">
-            
-              {% render 'card-product',
-                card_product: product,
-                media_aspect_ratio: section.settings.image_ratio,
-                image_shape: section.settings.image_shape,
-                show_secondary_image: section.settings.show_secondary_image,
-                show_vendor: section.settings.show_vendor,
-                show_rating: section.settings.show_rating,
-                lazy_load: lazy_load,
-                show_quick_add: section.settings.enable_quick_add,
-                section_id: section.id
+          <div class="swiper-slide">  
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: section.settings.image_ratio,
+              image_shape: section.settings.image_shape,
+              show_secondary_image: section.settings.show_secondary_image,
+              show_vendor: section.settings.show_vendor,
+              show_rating: section.settings.show_rating,
+              show_quick_add: section.settings.enable_quick_add,
+              section_id: section.id
               %}
-            </div>
-          </a>
-        {% comment %} <a href="{{ product.url }}" class="swiper-slide">
-          <div class="slide-media">
-            <img
-              srcset="{% if product.featured_image.width >= 288 %}{{ product.featured_image | image_url: width: 288 }} 288w,{% endif %}
-                      {% if product.featured_image.width >= 576 %}{{ product.featured_image | image_url: width: 576 }} 576w,{% endif %}
-                      {% if product.featured_image.width >= 550 %}{{ product.featured_image | image_url: width: 550 }} 550w,{% endif %}
-                      {% if product.featured_image.width >= 1100 %}{{ product.featured_image | image_url: width: 1100 }} 1100w,{% endif %}
-                      {{ product.featured_image | image_url }} {{ product.featured_image.width }}w"
-              src="{{ media | image_url: width: 550, height: 550 }}"
-              sizes="(min-width: 1200px) calc((1200px - 10rem) / 2), (min-width: 750px) calc((100vw - 11.5rem) / 2), calc(100vw - 4rem)"
-              loading="lazy"
-              width="576"
-              height="{{ 576 | divided_by: product.featured_image.aspect_ratio }}"
-              alt="{{ product.featured_image.alt | escape }}"
-            >
           </div>
-          <div class="slide-content">
-            <h4 class="slide-content__product-title card__heading h5">{{ product.title }}</h4>
-            <div class="slide-content__product-price card-information">
-              <span class="price">{{ product.price | money }}</span>
-            </div>
-          </div>
-        </a> {% endcomment %}
         {% endfor %}
-      </div><!-- /swiper-wrapper -->
-    </div><!-- /swiper -->
+      </div>
+    </div>
   </div>
 </div>
 <script src="{{ 'swiper-bundle.min.js' | asset_url}}" defer></script>
