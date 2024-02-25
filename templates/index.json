@@ -157,6 +157,19 @@
         "show_ranking_icon": true
       }
     },
+    "swiper_jLxE9p": {
+      "type": "swiper",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "title": "NEW ARRIVAL",
+        "collection": "all-items",
+        "padding_top": 24,
+        "padding_bottom": 60,
+        "color_scheme": "background-1"
+      }
+    },
     "slideshow_thAVbb": {
       "type": "slideshow",
       "blocks": {
@@ -368,19 +381,6 @@
         "padding_top": 72,
         "padding_bottom": 72
       }
-    },
-    "swiper_jLxE9p": {
-      "type": "swiper",
-      "custom_css": [
-        "h2 {text-align: center;}"
-      ],
-      "settings": {
-        "title": "NEW ARRIVAL",
-        "collection": "all-items",
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "color_scheme": "background-1"
-      }
     }
   },
   "order": [
@@ -389,11 +389,11 @@
     "308e7598-424d-4c31-b76c-ee9875078d0c",
     "5f020998-dda5-4dcd-ad20-6ca8f3db3f74",
     "4804e67a-69b1-4748-bfce-c2f157bfa392",
+    "swiper_jLxE9p",
     "slideshow_thAVbb",
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
     "3976768e-dc36-4708-a257-11ac35b24a8b",
     "afe96b59-770d-4463-b3c9-d522db80df6a",
-    "featured_blog_wcqMwF",
-    "swiper_jLxE9p"
+    "featured_blog_wcqMwF"
   ]
 }
