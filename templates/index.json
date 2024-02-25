@@ -94,69 +94,6 @@
         "padding_bottom": 48
       }
     },
-    "5f020998-dda5-4dcd-ad20-6ca8f3db3f74": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "WHO WE ARE",
-            "heading_size": "h2"
-          }
-        },
-        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>自然がつくり出すさまざまな\"カタチ\"を独自の解釈でジュエリーに落とし込んだのが「katachi」です。川の流れで削られた小石、永い年月を思わせる大木の年輪、身近には多くの形が溢れています。身につける人の日常に溶けこむ、寄り添う、そんなブランドです。<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-0",
-        "template--18509564903697__5f020998-dda5-4dcd-ad20-6ca8f3db3f74-1682260146ae829f34-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 76
-      }
-    },
-    "4804e67a-69b1-4748-bfce-c2f157bfa392": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h2 {text-align: center;}"
-      ],
-      "settings": {
-        "title": "ITEM RANKING TOP5",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 72,
-        "show_ranking_icon": true
-      }
-    },
     "swiper_jLxE9p": {
       "type": "swiper",
       "custom_css": [
@@ -242,6 +179,38 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "4804e67a-69b1-4748-bfce-c2f157bfa392": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "title": "ITEM RANKING TOP5",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 72,
+        "show_ranking_icon": true
       }
     },
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129": {
@@ -387,10 +356,9 @@
     "social_widget_55982",
     "f78e79a2-3a4b-4a57-a989-6224c6c19318",
     "308e7598-424d-4c31-b76c-ee9875078d0c",
-    "5f020998-dda5-4dcd-ad20-6ca8f3db3f74",
-    "4804e67a-69b1-4748-bfce-c2f157bfa392",
     "swiper_jLxE9p",
     "slideshow_thAVbb",
+    "4804e67a-69b1-4748-bfce-c2f157bfa392",
     "5ee7d42c-3138-4269-9a7b-9ccaf72eb129",
     "3976768e-dc36-4708-a257-11ac35b24a8b",
     "afe96b59-770d-4463-b3c9-d522db80df6a",
