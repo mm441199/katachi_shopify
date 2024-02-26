@@ -81,6 +81,18 @@
         {{ 'customer.register.last_name' | t }}
       </label>
     </div>
+  {% comment %} -----▼ 生年月日と性別の入力フォームを追加 ▼----- {% endcomment %}
+    <div class="birthday">
+      <label for="birthday" class="birthday__label">生年月日</label>
+      <input class="birthday__form" id="birthday" type="date" name="customer[note][Birthday]" placefolder="Birthday" />
+    </div>
+    <div class="gender">
+      <label for="gender" class="gender__label">性別</label>
+      <input type="radio" name="customer[note][性別]" value="男性" id="male">男性      
+      <input type="radio" name="customer[note][性別]" value="女性" id="female">女性
+      <input type="radio" name="customer[note][性別]" value="その他" id="other">その他
+    </div>
+  {% comment %} -----▲ 生年月日と性別の入力フォームを追加 ▲----- {% endcomment %}
     <div class="field">
       <input
         type="email"
@@ -137,20 +149,6 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
-    <div class="birthday">
-      <label for="birthday">誕生日</label>
-      <ul class="birthday-form">
-        <li class="birthday-form__item"><select id="year" name="customer[note][Year]"><option value="0">年</option></select></li>
-        <li class="birthday-form__item"><select id="month" name="customer[note][Month]"><option value="0">月</option></select></li>
-        <li class="birthday-form__item"><select id="day" name="customer[note][Day]"><option value="0">日</option></select></li>
-      </ul>
-    </div>
-    <div class="gender">
-      <label for="gender">性別</label>
-      <input type="radio" name="customer[note][性別]" value="男性" id="male">男性      
-      <input type="radio" name="customer[note][性別]" value="女性" id="female">女性
-      <input type="radio" name="customer[note][性別]" value="その他" id="other">その他
-    </div>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>
